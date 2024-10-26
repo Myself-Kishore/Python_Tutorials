@@ -23,7 +23,7 @@
 
 [Day 2 >>](./02)
 
-![30DaysOfPython](./images/30DaysOfPython_banner3@2x.png)
+![Python_Tutorials](./Images/MaintopPython.jpeg)
 
 - [🐍 Python Learning](#-python_tutorials)
 - [📘 Day 1](#-day-1)
