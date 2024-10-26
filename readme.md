@@ -14,9 +14,9 @@
   </a>
 
 
-  <sub>Author:
-  <a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Kishroe Mada</a><br>
-  <small> First Edition: October, 2024</small>
+  <sub>Author :
+  <a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Sohatej Naga Kishore</a><br>
+  <small> First Edition : October, 2024</small>
   </sub>
 </div>
 
