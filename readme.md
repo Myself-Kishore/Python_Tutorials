@@ -96,11 +96,11 @@ It is used for:
 To run a python script you need to install python. Let's [download](https://www.python.org/) python.
 If your are a windows user. Click the button encircled in red.
 
-[![installing on Windows](./images/installing_on_windows.png)](https://www.python.org/)
+[![installing on Windows](./Images/01pythonwindowsdownload.png)](https://www.python.org/)
 
 If you are a macOS user. Click the button encircled in red.
 
-[![installing on Windows](./images/installing_on_macOS.png)](https://www.python.org/)
+[![installing on Windows](./Images/01pythonmacdownload.png)](https://www.python.org/)
 
 To check if python is installed write the following command on your device terminal.
 
@@ -108,7 +108,7 @@ To check if python is installed write the following command on your device termi
 python --version
 ```
 
-![Python Version](./images/python_versio.png)
+![Python Version](./Images/01pythonversion.png)
 
 As you can see from the terminal, I am using _Python 3.7.5_ version at the moment. Your version of Python might be different from mine by but it should be 3.6 or above. If you mange to see the python version, well done. Python has been installed on your machine. Continue to the next section.
 
@@ -123,35 +123,35 @@ Open your terminal or command prompt(cmd) and write:
 python
 ```
 
-![Python Scripting Shell](./images/opening_python_shell.png)
+![Python Scripting Shell](./Images/01pythonopen.png)
 
 The Python interactive shell is opened and it is waiting for you to write Python code(Python script). You will write your Python script next to this symbol >>> and then click Enter.
 Let us write our very first script on the Python scripting shell.
 
-![Python script on Python shell](./images/adding_on_python_shell.png)
+![Python script on Python shell](./Images/01pythonadding.png)
 
 Well done, you wrote your first Python script on Python interactive shell. How do we close the Python interactive shell ?
 To close the shell, next to this symbol >> write **exit()** command and press Enter.
 
-![Exit from python shell](./images/exit_from_shell.png)
+![Exit from python shell](./Images/01pythonexit.png)
 
 Now, you know how to open the Python interactive shell and how to exit from it.
 
 Python will give you results if you write scripts that Python understands, if not it returns errors. Let's make a deliberate mistake and see what Python will return.
 
-![Invalid Syntax Error](./images/invalid_syntax_error.png)
+![Invalid Syntax Error](./Images/01pythoninvalidsyntax.png)
 
 As you can see from the returned error, Python is so clever that it knows the mistake we made and which was _Syntax Error: invalid syntax_. Using x as multiplication in Python is a syntax error because (x) is not a valid syntax in Python. Instead of (**x**) we use asterisk (*) for multiplication. The returned error clearly shows what to fix.
 
 The process of identifying and removing errors from a program is called _debugging_. Let us debug it by putting * in place of **x**.
 
-![Fixing Syntax Error](./images/fixing_syntax_error.png)
+![Fixing Syntax Error](./Images/01pythonfixingerror.png)
 
 Our bug was fixed, the code ran and we got a result we were expecting. As a programmer you will see such kind of errors on daily basis. It is good to know how to debug. To be good at debugging you should understand what kind of errors you are facing. Some of the Python errors you may encounter are _SyntaxError_, _IndexError_, _NameError_, _ModuleNotFoundError_, _KeyError_, _ImportError_, _AttributeError_, _TypeError_, _ValueError_, _ZeroDivisionError_ etc. We will see more about different Python **_error types_** in later sections.
 
 Let us practice more how to use Python interactive shell. Go to your terminal or command prompt and write the word **python**.
 
-![Python Scripting Shell](./images/opening_python_shell.png)
+![Python Scripting Shell](./Images/01pythonopen.png)
 
 The Python interactive shell is opened. Let us do some basic mathematical operations (addition, subtraction, multiplication, division, modulus,  exponential).
 
