@@ -182,7 +182,7 @@ This is how you write a comment in python
 
 Before we move on to the next section, let us practice more on the Python interactive shell. Close the opened shell by writing _exit()_ on the shell and open it again and let us practice how to write text on the Python shell.
 
-![Writing String on python shell](./images/writing_string_on_shell.png)
+![Writing String on python shell](./Images/01stringpython.png)
 
 ## Basic Python
 
@@ -194,7 +194,7 @@ A Python script can be written in Python interactive shell or in the code editor
 
 An indentation is a white space in a text. Indentation in many languages is used to increase code readability; however, Python uses indentation to create blocks of code. In other programming languages, curly brackets are used to create code blocks instead of indentation. One of the common bugs when writing Python code is incorrect indentation.
 
-![Indentation Error](./images/indentation.png)
+![Indentation Error](./Images/01pythonindentationerror.png)
 
 ### Comments
 
@@ -321,7 +321,7 @@ In later sections, we will go in detail about each and every Python data type.
 
 To check the data type of certain data/variable we use the **type** function. In the following terminal you will see different python data types:
 
-![Checking Data types](./images/checking_data_types.png)
+![Checking Data types](./Images/01datatypes.png)
 
 ### Python File
 
@@ -356,7 +356,7 @@ print(type((9.8, 3.14, 2.7)))    # Tuple
 ```
 
 
-🌕  You are amazing. You have just completed day 1 challenge and you are on your way to greatness. Now do some exercises for your brain and muscles.
+🌕  You are amazing. You have just completed day 1 Learning and you are on your way to greatness. Now do some exercises for your brain and muscles.
 
 ## 💻 Exercises - Day 1
 
