@@ -157,11 +157,11 @@ The Python interactive shell is opened. Let us do some basic mathematical operat
 
 Let us do some maths first before we write any Python code:
 
-- 2 + 3 is 5
-- 3 - 2 is 1
-- 3 \* 2 is 6
-- 3 / 2 is 1.5
-- 3 ** 2 is the same as 3 * 3
+- 3 + 3 is 6
+- 4 - 2 is 2
+- 4 * 2 is 8
+- 5 / 2 is 2.5
+- 4 ** 2 is the same as 4 * 4
 
 In python we have the following additional operations:
 
