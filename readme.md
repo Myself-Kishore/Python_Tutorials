@@ -27,7 +27,6 @@
 
 - [🐍 Python Learning](#-python_tutorials)
 - [📘 Day 1](#-day-1)
-  - [Welcome](#welcome)
   - [Introduction](#introduction)
   - [What is Python ?](#what-is-python-)
   - [Environment Setup](#environment-setup)
@@ -56,18 +55,39 @@
 
 ## Introduction
 
-Python is a high-level programming language for general-purpose programming. It is an open source, interpreted, objected-oriented programming language. Python was created by a Dutch programmer, Guido van Rossum. The name of the Python programming language was derived from a British sketch comedy series, *Monty Python's Flying Circus*.  The first version was released on February 20, 1991. This 30 days of Python challenge will help you learn the latest version of Python, Python 3 step by step. The topics are broken down into 30 days, where each day contains several topics with easy-to-understand explanations, real-world examples, and many hands on exercises and projects.
+Python is a high-level programming language for general-purpose programming. It is an open source, interpreted, objected-oriented programming language. Python was created by a Dutch programmer, Guido van Rossum. The name of the Python programming language was derived from a British sketch comedy series, *Monty Python's Flying Circus*.  The first version was released on February 20, 1991. 
 
-This challenge is designed for beginners and professionals who want to learn python programming language. It may take 30 to 100 days to complete the challenge. People who actively participate in the telegram group have a high probability of completing the challenge.
+Python is widely used in various fields, such as web development, data science, artificial intelligence, automation, and software development. Its extensive standard library and vast range of external packages enable developers to build robust applications quickly across platforms like Windows, Mac, and Linux.
 
-This challenge is easy to read, written in conversational English, engaging, motivating and at the same time, it is very demanding. You need to allocate much time to finish this challenge. If you are a visual learner, you may get the video lesson on <a href="https://www.youtube.com/channel/UC7PNRuno1rzYPb1xLa4yktw"> Washera</a> YouTube channel. You may start from [Python for Absolute Beginners video](https://youtu.be/OCCWZheOesI). 
+This tutorial is designed for beginners and professionals who want to learn python programming language. It may take 30 to 100 days to complete the challenge. 
 
-The author likes to hear your opinion about the challenge, share the author by expressing your thoughts about the 30DaysOfPython challenge. 
+This tutorial is easy to read, written in conversational English, engaging, motivating and at the same time, it is very demanding. You need to allocate much time to finish this challenge. If you are a visual learner, you may get the video lesson on <a href="https://www.youtube.com/channel/UC7PNRuno1rzYPb1xLa4yktw"> Washera</a> YouTube channel. You may start from [Python for Absolute Beginners video](https://youtu.be/OCCWZheOesI). 
 
 ## What is Python ?
 
-It is a programming language which is very close to human language and because of that, it is easy to learn and use.
-Python is used by various industries and companies (including Google). It has been used to develop web applications, desktop applications, system administration, and machine learning libraries. Python is a highly embraced language in the data science and machine learning community. I hope this is enough to convince you to start learning Python. Python is eating the world and you are killing it before it eats you.
+Python is a popular programming language. It was created by Guido van Rossum, and released in 1991.
+
+It is used for:
+- Web development (server-side),
+- Software development,
+- Mathematics,
+- System Scripting.
+
+## What can Python do ?
+
+- Python can be used on a server to create web applications.
+- Python can be used alongside software to create workflows.
+- Python can connect to database systems. It can also read and modify files.
+- Python can be used to handle big data and perform complex mathematics.
+- Python can be used for rapid prototyping, or for production-ready software development.
+
+## Why Python ?
+
+- Python works on multiple platforms, like Windows, Mac, Linux, and Raspberry Pi.
+- It has a simple, English-like syntax that’s easy to read and write.
+- Developers can write programs with fewer lines compared to other languages.
+- Python runs on an interpreter, allowing code to be tested immediately, which is helpful for quick prototyping.
+- It supports different programming styles: procedural, object-oriented, and functional.
 
 ## Environment Setup
 
