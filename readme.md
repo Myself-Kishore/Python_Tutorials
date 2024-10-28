@@ -397,4 +397,4 @@ print(type((9.8, 3.14, 2.7)))    # Tuple
 
 🎉 CONGRATULATIONS ! 🎉
 
-[Day 2 >>](./02)
+[Day 2 >>](./02_Day_Variables_Builtin_Functions/02_variables_builtin_functions.md)
