@@ -46,4 +46,4 @@ Let us open the Python shell and start using some of the most common built-in fu
 
 LeLet us open the Jupyter Notebook and start using some of the most common built-in functions.
 
-![Built-in functions](../images/builtin-functions_practice.png)
+![Built-in functions](../02_Day_Variables_Builtin_Functions/Images/02sample_Builtin.png)
