@@ -50,10 +50,10 @@ Let us open the Jupyter Notebook and start using some of the most common built-i
 
 Let us practice more by using different built-in functions
 
-![Dir Built in Functions](../)
+![Dir Built in Functions](../02_Day_Variables_Builtin_Functions/Images/02reserved_keywords.png)
 
 As you can see from the terminal above, Python has got reserved words. We do not use reserved words to declare variables or functions. We will cover variables in the next section.
 
 I believe, by now you are familiar with built-in functions. Let us do one more practice of built-in functions and we will move on to the next section.
 
-![Min Max Sum](../)
+![Min Max Sum](../02_Day_Variables_Builtin_Functions/Images/02min_max.png)
