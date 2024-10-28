@@ -26,7 +26,7 @@
 ![Python_Tutorials](./Images/MaintopPython.jpeg)
 
 - [📘 Day 2](#-day-2)
-- [Built in functions](#built-in-functions)
+  - [Built in functions](#built-in-functions)
 
 
 # 📘 Day 2
