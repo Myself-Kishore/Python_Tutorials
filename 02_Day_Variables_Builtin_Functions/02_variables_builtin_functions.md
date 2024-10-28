@@ -27,6 +27,7 @@
 
 - [📘 Day 2](#-day-2)
   - [Built in functions](#built-in-functions)
+  - [Variables](#variables)
 
 
 # 📘 Day 2
@@ -58,3 +59,5 @@ We will cover variables in the next section.
 I believe, by now you are familiar with built-in functions. Let us do one more practice of built-in functions and we will move on to the next section.
 
 ![Min Max Sum](../Images/02min_max.png)
+
+# Variables
