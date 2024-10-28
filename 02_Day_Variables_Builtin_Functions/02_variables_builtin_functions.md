@@ -32,6 +32,10 @@
     - [Assigning Multiple Variables in a Line](#assigning-multiple-variables-in-a-line)
   - [Data Types](#data-types)
   - [Checking Data types and Casting](#checking-data-types-and-casting)
+  - [Numbers](#numbers)
+  - [💻 Exercises - Day 2](#-exercises---day-2)
+    - [Exercises: Level 1](#exercises-level-1)
+    - [Exercises: Level 2](#exercises-level-2)
 
 
 # 📘 Day 2
