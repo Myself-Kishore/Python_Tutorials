@@ -28,6 +28,10 @@
 - [📘 Day 2](#-day-2)
   - [Built in functions](#built-in-functions)
   - [Variables](#variables)
+    - [Creating Variables](#creating-variables)
+    - [Assigning Multiple Variables in a Line](#assigning-multiple-variables-in-a-line)
+  - [Data Types](#data-types)
+  - [Checking Data types and Casting](#checking-data-types-and-casting)
 
 
 # 📘 Day 2
@@ -60,4 +64,167 @@ I believe, by now you are familiar with built-in functions. Let us do one more p
 
 ![Min Max Sum](../Images/02min_max.png)
 
-# Variables
+## Variables
+
+Variables store data in a computer memory. Mnemonic variables are recommended to use in many programming languages. A mnemonic variable is a variable name that can be easily remembered and associated. A variable refers to a memory address in which data is stored.
+Number at the beginning, special character, hyphen are not allowed when naming a variable. A variable can have a short name (like x, y, z), but a more descriptive name (firstname, lastname, age, country) is highly recommended.
+
+Python Variable Name Rules
+
+- A variable name must start with a letter or the underscore character
+- A variable name cannot start with a number
+- A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and \_ )
+- Variable names are case-sensitive (firstname, Firstname, FirstName and FIRSTNAME) are different variables)
+
+Here are some example of valid variable names:
+
+```shell
+firstname
+lastname
+age
+country
+city
+first_name
+last_name
+```
+
+Invalid variables names
+
+```shell
+first-name
+first@name
+first$name
+num-1
+1num
+```
+
+## Creating Variables
+
+Python has no command for declaring a variabel.
+A variable is created the moment you first assign a value to it.
+
+_Example:_
+
+```py
+x = 5
+y = "John"
+print(x)   # 5
+print(y)   # John
+```
+Variable do not need to be declared with any particular type, and can even change type after they have been set.
+
+```py
+x = 4       # x is of type int
+x = "Sally" # x is now of type str
+print(x)
+
+It gives the output : Sally
+```
+
+### Multiple Words Variable Names
+
+Variable names with more than one word can be difficult to read.
+There are several techniques you can use to make them more readable:
+
+### Camel Case
+Each word, except the first, starts with a capital letter:
+```py
+myVariableName = "Kishore"
+```
+### Pascal Case
+Each word starts with a capital letter:
+```py
+myVariableName = "Kishore"
+```
+### Snake Case
+Each word is separated by an underscore character:
+```py
+my_variable_name = "John"
+```
+## Assigning Multiple Variables in a Line
+Python allows you to assign values to multiple variables in one line:
+_*Examples:*_
+```py
+x, y, z = "Ronaldo CR7", "Messi", "Neymar"
+print(x)
+print(y)
+print(z)
+```
+Output
+```
+Ronaldo CR7
+Messi
+Neymar
+```
+
+```py
+first_name, last_name, country, age, is_married = 'Kishore', 'Mada', 'India', 100, False
+
+print(first_name, last_name, country, age, is_married)
+print('First name:', first_name)
+print('Last name: ', last_name)
+print('Country: ', country)
+print('Age: ', age)
+print('Married: ', is_married)
+```
+Output:
+```
+Kishore Mada India 100 False
+First name: Kishore
+Last name:  Mada
+Country:  India
+Age:  100
+Married:  False
+```
+### One Value to Multiple Variables
+And you can assign the same value to multiple variables in one line:
+```py
+x = y = z = "Sunil Chhetri"
+print(x)
+print(y)
+print(z)
+```
+Output:
+```
+Sunil Chhetri
+```
+Getting user input using the input() built-in function. Let us assign the data we get from a user into first_name and age variables.
+
+_Example:_
+```py
+first_name = input('What is your name: ')
+age = int(input('How old are you? '))  # Convert age to an integer
+
+print("Name:", first_name)
+print("Age:", age)
+```
+Output:
+```
+What is your name: Kishore
+How old are you? 22
+Name: Kishore
+Age: 22
+```
+## Data Types
+
+Every value has a datatype, and variables can hold values. Python is a powerfully composed language; consequently, we don't have to characterize the sort of variable while announcing it. The interpreter binds the value implicitly to its type.
+_Example :_
+```py
+x = "Hello World"         #	str	
+x = 20	                  # int	
+x = 20.5	                # float	
+x = 1j                    #	complex
+x = range(6)	            # range	
+x = True	                # bool	
+x = b"Hello"	            # bytes
+x = True	                # bool	
+x = b"Hello"	            # bytes
+x = bytearray(5)	        # bytearray
+x = memoryview(bytes(5))	# memoryview	
+x = ["apple", "banana", "cherry"]      # list	
+x = ("apple", "banana", "cherry")      # tuple	
+x = {"name" : "John", "age" : 36}	     # dict	
+x = {"apple", "banana", "cherry"}      # set	
+x = frozenset({"apple", "banana", "cherry"})  # frozenset	
+```
+## Checking Data types and Casting
