@@ -228,3 +228,123 @@ x = {"apple", "banana", "cherry"}      # set
 x = frozenset({"apple", "banana", "cherry"})  # frozenset	
 ```
 ## Checking Data types and Casting
+- Check Data types: To check the data type of certain data/variable we use the type
+_Examples:_
+
+```py
+# Different python data types
+# Let's declare variables with various data types
+
+first_name = 'Kishore'     # str
+last_name = 'M'            # str
+country = 'India'          # str
+age = 100                  # int
+
+# Printing out types
+print(type('Kishore'))           # str
+print(type(first_name))          # str
+print(type(10))                  # int
+print(type(3.14))                # float
+print(type(1 + 1j))              # complex
+print(type(True))                # bool
+print(type([1, 2, 3, 4]))        # list
+print(type({'name':'Kishore'}))  # dict
+print(type((1,2)))               # tuple
+print(type(zip([1,2],[3,4])))    # zip
+```
+## Casting
+Converting one data type to another data type. We use int(), float(), str(), list, set When we do arithmetic operations string numbers should be first converted to int or float otherwise it will return an error. If we concatenate a number with a string, the number should be first converted to a string. We will talk about concatenation in String section.
+
+_Examples :_
+
+```py
+# int to float
+num_int = 10
+print('num_int',num_int)         # 10
+num_float = float(num_int)
+print('num_float:', num_float)   # 10.0
+
+# float to int
+gravity = 9.81
+print(int(gravity))             # 9
+
+# int to str
+num_int = 10
+print(num_int)                  # 10
+num_str = str(num_int)
+print(num_str)                  # '10'
+
+# str to int or float
+num_str = '10.6'
+num_float = float(num_str)
+print('num_float', float(num_str))  # 10.6
+num_int = int(num_float)
+print('num_int', int(num_int))      # 10
+
+# str to list
+first_name = 'Kishore'
+print(first_name)               # 'Kishore'
+first_name_to_list = list(first_name)
+print(first_name_to_list)            # ['K', 'i', 's', 'h', 'o', 'r', 'e']
+```
+
+## Numbers
+Number data types in Python:
+
+1.Integers: Integer(negative, zero and positive) numbers:
+    Example: ... -3, -2, -1, 0, 1, 2, 3 ...
+
+2.Floating Point Numbers(Decimal numbers) 
+    Example: ... -3.5, -2.25, -1.0, 0.0, 1.1, 2.2, 3.5 ...
+
+3.Complex Numbers 
+    Example: 1 + j, 2 + 4j, 1 - 1j
+
+🌕 You are awesome. You have just completed day 2 Learning and you are two steps ahead on your way to greatness. Now do some exercises for your brain and muscles.
+
+## 💻 Exercises - Day 2
+
+### Exercises: Level 1
+
+1. Inside Python_Tuturials create a folder called day_2. Inside this folder create a file named variables.py
+2. Write a python comment saying 'Day 2: python programming'
+3. Declare a first name variable and assign a value to it
+4. Declare a last name variable and assign a value to it
+5. Declare a full name variable and assign a value to it
+6. Declare a country variable and assign a value to it
+7. Declare a city variable and assign a value to it
+8. Declare an age variable and assign a value to it
+9. Declare a year variable and assign a value to it
+10. Declare a variable is_married and assign a value to it
+11. Declare a variable is_true and assign a value to it
+12. Declare a variable is_light_on and assign a value to it
+13. Declare multiple variable on one line
+
+### Exercises: Level 2
+
+1. Check the data type of all your variables using type() built-in function
+1. Using the _len()_ built-in function, find the length of your first name
+1. Compare the length of your first name and your last name
+1. Declare 5 as num_one and 4 as num_two
+1. Add num_one and num_two and assign the value to a variable total
+1. Subtract num_two from num_one and assign the value to a variable diff
+1. Multiply num_two and num_one and assign the value to a variable product
+1. Divide num_one by num_two and assign the value to a variable division
+1. Use modulus division to find num_two divided by num_one and assign the value to a variable remainder
+1. Calculate num_one to the power of num_two and assign the value to a variable exp
+1. Find floor division of num_one by num_two and assign the value to a variable floor_division
+1. The radius of a circle is 30 meters.
+    1. Calculate the area of a circle and assign the value to a variable name of _area_of_circle_
+    2. Calculate the circumference of a circle and assign the value to a variable name of _circum_of_circle_
+    3. Take radius as user input and calculate the area.
+1. Use the built-in input function to get first name, last name, country and age from a user and store the value to their corresponding variable names
+1. Run help('keywords') in Python shell or in your file to check for the Python reserved words or keywords
+
+🎉 CONGRATULATIONS ! 🎉
+
+[<< Day 1](../readme.md) | [Day 3 >>](../03)
+
+
+
+
+
