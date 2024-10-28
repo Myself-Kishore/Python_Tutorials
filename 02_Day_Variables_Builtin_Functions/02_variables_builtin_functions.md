@@ -44,6 +44,16 @@ Let us open the Python shell and start using some of the most common built-in fu
 
 ### Should you prefer to proceed with the Python Shell, you are welcome to do so.
 
-LeLet us open the Jupyter Notebook and start using some of the most common built-in functions.
+Let us open the Jupyter Notebook and start using some of the most common built-in functions.
 
 ![Built-in functions](../02_Day_Variables_Builtin_Functions/Images/02sample_Builtin.png)
+
+Let us practice more by using different built-in functions
+
+![Dir Built in Functions](../)
+
+As you can see from the terminal above, Python has got reserved words. We do not use reserved words to declare variables or functions. We will cover variables in the next section.
+
+I believe, by now you are familiar with built-in functions. Let us do one more practice of built-in functions and we will move on to the next section.
+
+![Min Max Sum](../)
