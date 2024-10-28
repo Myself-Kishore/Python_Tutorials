@@ -25,5 +25,4 @@
 
 ![Python_Tutorials](./Images/MaintopPython.jpeg)
 
-- [🐍 Python Learning](#-python_tutorials)
 - [📘 Day 2](#-day-2)
