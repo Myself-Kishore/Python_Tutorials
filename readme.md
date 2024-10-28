@@ -21,7 +21,7 @@
 </div>
 
 
-[Day 2 >>](./02)
+[Day 2 >>](./02_Day_Variables_Builtin_Functions/02_variables_builtin_functions.md)
 
 ![Python_Tutorials](./Images/MaintopPython.jpeg)
 
