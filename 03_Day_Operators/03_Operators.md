@@ -26,3 +26,22 @@
 ![Python_Tutorials](../Images/MaintopPython.jpeg)
 
 - [📘 Day 3](#-day-3)
+  - [Boolean](#boolean)
+  - [Operators](#operators)
+
+# 📘 Day 3
+
+## Boolean
+A boolean data type represents one of the two values: True or False. The use of these data types will be clear once we start using the comparison operator. The first letter T for True and F for False should be capital unlike JavaScript. _**Example: Boolean Values**_
+```py
+print(True)
+print(False)
+```
+When you compare two values, the expression is evaluated and Python returns the Boolean answer:
+```py
+print(10 > 9)
+print(10 == 9)
+print(10 < 9)
+```
+
+## Operators
