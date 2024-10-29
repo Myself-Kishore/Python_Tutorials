@@ -21,7 +21,7 @@
 </div>
 
 
-[<< Day 1](../readme.md) | [Day 3 >>](../03)
+[<< Day 1](../readme.md) | [Day 3 >>](../03_Day_Operators/03_Operators.md)
 
 ![Python_Tutorials](../Images/MaintopPython.jpeg)
 
