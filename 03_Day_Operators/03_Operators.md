@@ -65,4 +65,4 @@ Assignment operators are used to assign values to variables. Let us take = as an
 - Floor division(//): a // b
 - Exponentiation(**): a ** b
 
-![Assignment Operators](../Images/03assignment_operators.png)
+![Assignment Operators](../Images/03arithmetic_operators.png)
