@@ -192,7 +192,7 @@ density = mass / volume # 1000 Kg/m^3
 
 In programming we compare values, we use comparison operators to compare two values. We check if a value is greater or less or equal to other value. The following table shows Python comparison operators which was taken from [w3shool](https://www.w3schools.com/python/python_operators.asp).
 
-![Comparison Operators](../images/comparison_operators.png)
+![Comparison Operators](../Images/03comparison_operators.png)
 **Example: Comparison Operators**
 
 ```py
@@ -229,8 +229,8 @@ In addition to the above comparison operator Python uses:
 ```py
 print('1 is 1', 1 is 1)                   # True - because the data values are the same
 print('1 is not 2', 1 is not 2)           # True - because 1 is not 2
-print('A in Asabeneh', 'A' in 'Asabeneh') # True - A found in the string
-print('B in Asabeneh', 'B' in 'Asabeneh') # False - there is no uppercase B
+print('K in Kishore', 'K' in 'Kishore')   # True - A found in the string
+print('I in Kishore', 'I' in 'Kishore')   # False - there is no uppercase B
 print('coding' in 'coding for all') # True - because coding for all has the word coding
 print('a in an:', 'a' in 'an')      # True
 print('4 is 2 ** 2:', 4 is 2 ** 2)   # True
@@ -240,7 +240,7 @@ print('4 is 2 ** 2:', 4 is 2 ** 2)   # True
 
 Unlike other programming languages python uses keywords _and_, _or_ and _not_ for logical operators. Logical operators are used to combine conditional statements:
 
-![Logical Operators](../images/logical_operators.png)
+![Logical Operators](../Images/03logical_operators.png)
 
 ```py
 print(3 > 2 and 4 > 3) # True - because both statements are true
