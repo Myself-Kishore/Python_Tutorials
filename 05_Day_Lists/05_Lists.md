@@ -8,7 +8,7 @@
 
 
 <div align="center">
-  <h1> Python Learning : Day 4 - Lists</h1>
+  <h1> Python Learning : Day 5 - Lists</h1>
   <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/msnkishore1702/">
   <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
   </a>
