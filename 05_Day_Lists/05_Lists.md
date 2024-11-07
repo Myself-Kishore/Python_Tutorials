@@ -21,6 +21,6 @@
 </div>
 
 
-[<< Day 3](../03_Day_Operators/03_Operators.md) | [Day 5 >>](../03)
+[<< Day 4](../) | [Day 6 >>](../03)
 
 ![Python_Tutorials](../Images/MaintopPython.jpeg)
